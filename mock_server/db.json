@@ -1,0 +1,239 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "name": "Friday Dinner Crew",
+      "emoji": "🍻",
+      "members": [
+        "Minjun",
+        "Seoyeon",
+        "Daniel",
+        "Hana"
+      ],
+      "budget": "₩15,000 / person",
+      "area": "Sinchon",
+      "avoid": [
+        "Cilantro",
+        "Shellfish"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Study Group Lunch",
+      "emoji": "📚",
+      "members": [
+        "Jiwoo",
+        "Taeyang",
+        "Yuna"
+      ],
+      "budget": "₩9,000 / person",
+      "area": "Yonsei Univ. gate",
+      "avoid": [
+        "Peanuts"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dorm Late Night",
+      "emoji": "🌙",
+      "members": [
+        "Seojun",
+        "Chaewon",
+        "Eric",
+        "Mina",
+        "Jaehyun"
+      ],
+      "budget": "₩12,000 / person",
+      "area": "Dormitory street",
+      "avoid": []
+    }
+  ],
+  "pairs": [
+    {
+      "id": 1,
+      "a": {
+        "name": "Spicy Tteokbokki",
+        "cuisine": "Korean snack",
+        "price": "₩8,000",
+        "emoji": "🌶️"
+      },
+      "b": {
+        "name": "Tonkotsu Ramen",
+        "cuisine": "Japanese",
+        "price": "₩11,000",
+        "emoji": "🍜"
+      }
+    },
+    {
+      "id": 2,
+      "a": {
+        "name": "Korean BBQ Pork",
+        "cuisine": "Korean",
+        "price": "₩16,000",
+        "emoji": "🥓"
+      },
+      "b": {
+        "name": "Margherita Pizza",
+        "cuisine": "Italian",
+        "price": "₩14,000",
+        "emoji": "🍕"
+      }
+    },
+    {
+      "id": 3,
+      "a": {
+        "name": "Bibimbap Bowl",
+        "cuisine": "Korean",
+        "price": "₩9,000",
+        "emoji": "🥗"
+      },
+      "b": {
+        "name": "Chicken Burger",
+        "cuisine": "American",
+        "price": "₩10,000",
+        "emoji": "🍔"
+      }
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 1,
+      "groupId": 1,
+      "place": "Sinchon Ramen House",
+      "cuisine": "Japanese · Ramen",
+      "price": "₩11,000 / person",
+      "distance": "4 min walk",
+      "matchScore": 92,
+      "reasons": [
+        "3 of 4 members picked ramen over BBQ in the taste battle",
+        "Fits the ₩15,000 budget with room for a side dish",
+        "No cilantro or shellfish in the menu"
+      ],
+      "memberFit": [
+        {
+          "name": "Minjun",
+          "fit": 95
+        },
+        {
+          "name": "Seoyeon",
+          "fit": 90
+        },
+        {
+          "name": "Daniel",
+          "fit": 88
+        },
+        {
+          "name": "Hana",
+          "fit": 94
+        }
+      ],
+      "backups": [
+        {
+          "place": "Yeonhui Kalguksu",
+          "cuisine": "Korean · Noodles",
+          "distance": "6 min walk",
+          "matchScore": 86
+        },
+        {
+          "place": "Mapo Dumpling Bar",
+          "cuisine": "Chinese · Dumplings",
+          "distance": "8 min walk",
+          "matchScore": 81
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "groupId": 2,
+      "place": "Gate Bibimbap Kitchen",
+      "cuisine": "Korean · Bibimbap",
+      "price": "₩8,500 / person",
+      "distance": "2 min walk",
+      "matchScore": 89,
+      "reasons": [
+        "Everyone picked bibimbap over burgers",
+        "Under the ₩9,000 lunch budget",
+        "Peanut-free menu"
+      ],
+      "memberFit": [
+        {
+          "name": "Jiwoo",
+          "fit": 91
+        },
+        {
+          "name": "Taeyang",
+          "fit": 86
+        },
+        {
+          "name": "Yuna",
+          "fit": 90
+        }
+      ],
+      "backups": [
+        {
+          "place": "Campus Gimbap Heaven",
+          "cuisine": "Korean · Gimbap",
+          "distance": "1 min walk",
+          "matchScore": 84
+        },
+        {
+          "place": "Pho Station",
+          "cuisine": "Vietnamese · Pho",
+          "distance": "3 min walk",
+          "matchScore": 79
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "groupId": 3,
+      "place": "Midnight Chicken & Beer",
+      "cuisine": "Korean · Fried chicken",
+      "price": "₩12,000 / person",
+      "distance": "6 min walk",
+      "matchScore": 85,
+      "reasons": [
+        "Open past midnight",
+        "Most popular pick across 5 members",
+        "Matches the ₩12,000 budget"
+      ],
+      "memberFit": [
+        {
+          "name": "Seojun",
+          "fit": 90
+        },
+        {
+          "name": "Chaewon",
+          "fit": 82
+        },
+        {
+          "name": "Eric",
+          "fit": 88
+        },
+        {
+          "name": "Mina",
+          "fit": 80
+        },
+        {
+          "name": "Jaehyun",
+          "fit": 85
+        }
+      ],
+      "backups": [
+        {
+          "place": "Night Owl Tteokbokki",
+          "cuisine": "Korean · Snack",
+          "distance": "4 min walk",
+          "matchScore": 82
+        },
+        {
+          "place": "24h Gukbap House",
+          "cuisine": "Korean · Soup",
+          "distance": "7 min walk",
+          "matchScore": 78
+        }
+      ]
+    }
+  ],
+  "archived": []
+}

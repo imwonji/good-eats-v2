@@ -1,0 +1,12 @@
+{
+  "name": "good-eats-mock-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "mock": "json-server --watch db.json --port 3000",
+    "start": "json-server --watch db.json --port 3000"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}
