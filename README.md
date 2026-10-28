@@ -47,7 +47,7 @@ flutter run --dart-define=API_BASE=http://10.0.2.2:3000
 - **오류**: mock 서버를 끄고(Ctrl+C) 화면 진입 → *Try again*
 
 ## 데모 영상
-- 1분 데모: _(링크 추가)_
+- 1분 데모: https://youtu.be/qNA78QIYfPE
 
 ## docs/
 - `디자인가이드.md` — 화면별 요소 번호·위젯·비즈니스 명칭·원칙·상태관리 포인트
